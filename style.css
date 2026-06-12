@@ -1,0 +1,94 @@
+
+/* Configurações Gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f7f4;
+            color: #333;
+                margin: 0;
+                    padding: 0;
+                    }
+
+                    header {
+                        background-color: #2e6f40;
+                            color: white;
+                                text-align: center;
+                                    padding: 2rem 1rem;
+                                    }
+
+                                    header h1 {
+                                        margin: 0;
+                                            font-size: 2.5rem;
+                                            }
+
+                                            /* Container de Conteúdo */
+                                            .container {
+                                                max-width: 800px;
+                                                    margin: 2rem auto;
+                                                        padding: 0 1rem;
+                                                        }
+
+                                                        /* Cards de Impacto */
+                                                        .card {
+                                                            background-color: white;
+                                                                border-left: 5px solid #d9534f; /* Vermelho/alerta para os problemas */
+                                                                    padding: 1.5rem;
+                                                                        margin-bottom: 1.5rem;
+                                                                            border-radius: 4px;
+                                                                                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+                                                                                }
+
+                                                                                .card h2 {
+                                                                                    margin-top: 0;
+                                                                                        color: #2e6f40;
+                                                                                        }
+
+                                                                                        /* Área de Ação interativa */
+                                                                                        .action-zone {
+                                                                                            text-align: center;
+                                                                                                margin-top: 2rem;
+                                                                                                }
+
+                                                                                                button {
+                                                                                                    background-color: #2e6f40;
+                                                                                                        color: white;
+                                                                                                            border: none;
+                                                                                                                padding: 10px 20px;
+                                                                                                                    font-size: 1.1rem;
+                                                                                                                        border-radius: 5px;
+                                                                                                                            cursor: pointer;
+                                                                                                                                transition: background 0.3s;
+                                                                                                                                }
+
+                                                                                                                                button:hover {
+                                                                                                                                    background-color: #1e4a2a;
+                                                                                                                                    }
+
+                                                                                                                                    /* Classes utilitárias do JavaScript */
+                                                                                                                                    .hidden {
+                                                                                                                                        display: none;
+                                                                                                                                        }
+
+                                                                                                                                        .show {
+                                                                                                                                            display: block;
+                                                                                                                                                background-color: #e2f0d9;
+                                                                                                                                                    padding: 15px;
+                                                                                                                                                        border-radius: 5px;
+                                                                                                                                                            margin-top: 15px;
+                                                                                                                                                                border: 1px solid #2e6f40;
+                                                                                                                                                                    animation: fadeIn 0.5s ease-in;
+                                                                                                                                                                    }
+
+                                                                                                                                                                    footer {
+                                                                                                                                                                        text-align: center;
+                                                                                                                                                                            padding: 1rem;
+                                                                                                                                                                                background-color: #333;
+                                                                                                                                                                                    color: #ccc;
+                                                                                                                                                                                        position: relative;
+                                                                                                                                                                                            bottom: 0;
+                                                                                                                                                                                                width: 100%;
+                                                                                                                                                                                                }
+
+                                                                                                                                                                                                @keyframes fadeIn {
+                                                                                                                                                                                                    from { opacity: 0; }
+                                                                                                                                                                                                        to { opacity: 1; }
+                                                                                                                                                                                                        }
